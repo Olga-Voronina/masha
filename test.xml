@@ -1,0 +1,20 @@
+-<context>
+<input pattern="/start">
+<output value="Здравствуйте! Вы позвонили в Квартур!"/>
+</input>
+<input pattern="* как можно * записаться? *">
+<output value="Легко!А куда вы хотите поехать?"/>
+<context modal="true">
+<input pattern="* (в мытищи|в одинцово|на пятницкое шоссе*) *">
+<output>
+<item value="Это просто замечательно!"/>
+<item value="Здорово!"/>
+<item value="Крутяк!"/>
+</output>
+</input>
+<input pattern="* (никуда|на хер|не знаю) *">
+<output value="Ну тогда чем же я Вам могу помочь?"/>
+</input>
+</context>
+</input>
+</context>
